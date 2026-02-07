@@ -10,7 +10,7 @@ An autonomous Spring Boot application that processes First Notice of Loss (FNOL)
 - **Intelligent Routing**: Routes claims based on configurable business rules
 - **RESTful API**: Clean REST endpoints for claim processing
 - **Swagger Documentation**: Interactive API documentation at `/swagger-ui.html`
-- **Comprehensive Logging**: Detailed logging for troubleshooting and audit trails
+
 
 ## 📋 Routing Rules
 
@@ -138,10 +138,7 @@ file: <PDF file>
 }
 ```
 
-#### Health Check
-```http
-GET /api/v1/claims/health
-```
+
 
 **Response:**
 ```json
@@ -151,17 +148,7 @@ GET /api/v1/claims/health
 }
 ```
 
-## 🧪 Testing
 
-Run the test suite:
-```bash
-mvn test
-```
-
-Run with coverage:
-```bash
-mvn clean test jacoco:report
-```
 
 ## 📊 Extracted Fields
 
@@ -220,39 +207,11 @@ logging.level.com.synapx.claims=DEBUG
 2. **Field extraction issues**: The regex patterns are optimized for ACORD forms
 3. **Port already in use**: Change the port in `application.properties`
 
-### Logs
 
-Check application logs for detailed error messages:
-```bash
-tail -f logs/insurance-claims-agent.log
-```
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
-## 📝 License
 
-This project is licensed under the MIT License.
 
-## 👥 Authors
 
-- **Your Name** - Initial work
 
-## 🙏 Acknowledgments
-
-- ACORD for insurance form standards
-- Apache PDFBox for PDF processing capabilities
-- Spring Boot team for the excellent framework
-
-## 📧 Contact
-
-For questions or support, please contact: support@synapx.com
-
----
-
-**Note**: This is a demonstration project for insurance claim processing automation. In production, you would integrate with actual insurance systems and databases.
