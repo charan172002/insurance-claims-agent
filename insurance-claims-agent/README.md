@@ -2,7 +2,7 @@
 
 An autonomous Spring Boot application that processes First Notice of Loss (FNOL) insurance documents, extracts key information, validates claims, and routes them to appropriate workflows.
 
-## 🎯 Features
+##  Features
 
 - **PDF Text Extraction**: Extracts text content from FNOL PDF documents using Apache PDFBox
 - **Field Extraction**: Uses regex pattern matching to extract structured data from unstructured text
@@ -12,7 +12,7 @@ An autonomous Spring Boot application that processes First Notice of Loss (FNOL)
 - **Swagger Documentation**: Interactive API documentation at `/swagger-ui.html`
 
 
-## 📋 Routing Rules
+##  Routing Rules
 
 The system routes claims based on the following business logic:
 
@@ -22,7 +22,7 @@ The system routes claims based on the following business logic:
 4. **Fast Track** - If estimated damage < $25,000
 5. **Standard Processing** - Default route for all other valid claims
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Java 17**
 - **Spring Boot 3.2.1**
@@ -32,7 +32,7 @@ The system routes claims based on the following business logic:
 - **Maven** - Build and dependency management
 - **JUnit 5** - Testing framework
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 insurance-claims-agent/
@@ -56,7 +56,7 @@ insurance-claims-agent/
 └── README.md
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -150,7 +150,7 @@ file: <PDF file>
 
 
 
-## 📊 Extracted Fields
+##  Extracted Fields
 
 The system extracts the following fields from FNOL documents:
 
@@ -199,7 +199,7 @@ spring.servlet.multipart.max-request-size=10MB
 logging.level.com.synapx.claims=DEBUG
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
