@@ -1,0 +1,68 @@
+{
+  "extractedFields": {
+    "policyInformation": {
+      "policyNumber": "AUTO-2024-123456",
+      "policyholderName": "John Michael Doe",
+      "effectiveDates": "01/01/2024 - 12/31/2024",
+      "carrierNaicCode": "12345"
+    },
+    "incidentInformation": {
+      "date": "02/07/2024",
+      "time": "2:30 PM",
+      "location": {
+        "street": "123 Main Street",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62701",
+        "country": "USA",
+        "descriptionIfNotSpecific": "Intersection of Main St and Oak Ave"
+      },
+      "description": "Two-vehicle collision at intersection. Insured vehicle rear-ended while stopped at red light."
+    },
+    "involvedParties": {
+      "claimant": {
+        "name": "John Michael Doe",
+        "address": "456 Oak Avenue, Springfield, IL 62701",
+        "contactDetails": {
+          "primaryPhone": "555-123-4567",
+          "secondaryPhone": "555-987-6543",
+          "primaryEmail": "john.doe@email.com",
+          "secondaryEmail": null
+        },
+        "relationToInsured": "SELF",
+        "dateOfBirth": "05/15/1985"
+      },
+      "thirdParties": []
+    },
+    "assetDetails": {
+      "assetType": "VEHICLE",
+      "assetId": "1HGCM82633A123456",
+      "vehicleDetails": {
+        "year": "2022",
+        "make": "Honda",
+        "model": "Accord",
+        "bodyType": "Sedan",
+        "plateNumber": "ABC1234",
+        "state": "IL"
+      },
+      "estimatedDamage": "4500",
+      "damageDescription": "Rear bumper damage, trunk dented, rear lights broken"
+    },
+    "otherMandatoryFields": {
+      "claimType": "AUTOMOBILE",
+      "attachments": [],
+      "initialEstimate": "4500",
+      "reportNumber": "SPD-2024-0207-001",
+      "policeOrFireDepartmentContacted": "Y"
+    }
+  },
+  "missingFields": [],
+  "recommendedRoute": "FAST_TRACK",
+  "reasoning": "Estimated damage ($4500.00) is below fast-track threshold ($25000.00)",
+  "metadata": {
+    "processingTimestamp": "2024-02-07T14:35:22",
+    "documentType": "ACORD FNOL",
+    "confidenceScore": 95,
+    "warnings": []
+  }
+}
