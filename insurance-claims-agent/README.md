@@ -1,4 +1,4 @@
-# Insurance Claims Processing Agent 🏥
+# Insurance Claims Processing Agent 
 
 An autonomous Spring Boot application that processes First Notice of Loss (FNOL) insurance documents, extracts key information, validates claims, and routes them to appropriate workflows.
 
